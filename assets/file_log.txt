@@ -1,0 +1,11 @@
+../assets/1548455995_lyric_X74.pkl: Saved at: Fri Jan 25 22:39:55 2019
+../assets/1548455995_lyric_X74.pkl: Saved at: Fri Jan 25 22:39:55 2019
+../assets/1548455995_lyric_y74.pkl: Saved at: Fri Jan 25 22:39:55 2019
+../assets/1548455995_lyric_df.csv: Saved at: Fri Jan 25 22:39:55 2019
+../assets/1548702610_lyric_df.csv: Saved at: Mon Jan 28 19:10:10 2019
+../assets/1548818756_clean_lyrics.csv: Saved at: Wed Jan 30 03:25:56 2019
+../assets/1548818756_clean_lyrics.csv: Saved at: Wed Jan 30 03:25:56 2019
+../assets/1548818756_clean_lyrics.csv: Saved at: Wed Jan 30 03:25:56 2019
+../assets/1548873539_clean_lyrics.csv: Saved at: Wed Jan 30 18:38:59 2019
+../assets/1548873539_clean_lyrics.csv: Saved at: Wed Jan 30 18:38:59 2019
+../assets/1548892595_eda_df.csv: Saved at: Wed Jan 30 23:56:35 2019
