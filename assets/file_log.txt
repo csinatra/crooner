@@ -9,3 +9,4 @@
 ../assets/1548873539_clean_lyrics.csv: Saved at: Wed Jan 30 18:38:59 2019
 ../assets/1548873539_clean_lyrics.csv: Saved at: Wed Jan 30 18:38:59 2019
 ../assets/1548892595_eda_df.csv: Saved at: Wed Jan 30 23:56:35 2019
+../assets/1549265762_LSTM_Model.pkl: Saved at: Mon Feb  4 07:36:02 2019

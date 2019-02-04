@@ -1,3 +1,6 @@
 */.ipynb_checkpoints
 */.DS_Store
 /assets/*cred.py
+/assets/*LSTM_Model.pkl
+.ipynb_checkpoints
+.DS_Store
