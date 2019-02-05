@@ -9,3 +9,5 @@
 /assets/*.npy
 /assets/*ycat.pkl
 /assets/*xreshape.pkl
+/glove_data
+models/
