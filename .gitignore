@@ -4,3 +4,8 @@
 /assets/*LSTM_Model.pkl
 .ipynb_checkpoints
 .DS_Store
+/assets/*model.h5
+/assets/*weights.h5
+/assets/*.npy
+/assets/*ycat.pkl
+/assets/*xreshape.pkl
