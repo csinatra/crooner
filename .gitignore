@@ -8,4 +8,4 @@
 /assets/*weights.h5
 /assets/*.npy
 /assets/*ycat.pkl
-/assets/*xreshape.pkl
+/assets/*Xreshape.pkl

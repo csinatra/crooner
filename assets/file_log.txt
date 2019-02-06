@@ -32,3 +32,4 @@
 ../assets/1549351379_LSTM315_ycat.npy: Saved at: Tue Feb  5 07:22:59 2019
 ../assets/1549382578_LSTM315_model.h5: Saved at: Tue Feb  5 16:02:58 2019
 ../assets/1549382578_LSTM315_weights.h5: Saved at: Tue Feb  5 16:02:58 2019
+../assets/1549429918_LSTM350_42Bmodel.h5: Saved at: Wed Feb  6 05:11:58 2019
