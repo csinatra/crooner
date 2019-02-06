@@ -8,6 +8,10 @@
 /assets/*weights.h5
 /assets/*.npy
 /assets/*ycat.pkl
+<<<<<<< HEAD
+/assets/*Xreshape.pkl
+=======
 /assets/*xreshape.pkl
 /glove_data
 models/
+>>>>>>> origin
