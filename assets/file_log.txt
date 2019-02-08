@@ -33,3 +33,14 @@
 ../assets/1549382578_LSTM315_model.h5: Saved at: Tue Feb  5 16:02:58 2019
 ../assets/1549382578_LSTM315_weights.h5: Saved at: Tue Feb  5 16:02:58 2019
 ../assets/1549429918_LSTM350_42Bmodel.h5: Saved at: Wed Feb  6 05:11:58 2019
+../assets/1549596742_lyric_df.csv: Saved at: Fri Feb  8 03:32:22 2019
+../assets/1549597149_LSTM315_300tokenizer.pkl: Saved at: Fri Feb  8 03:39:09 2019
+../assets/1549597149_LSTM315_300Xreshape.npy: Saved at: Fri Feb  8 03:39:09 2019
+../assets/1549597149_LSTM315_300tokenizer.pkl: Saved at: Fri Feb  8 03:39:09 2019
+../assets/1549597149_LSTM315_300tokenizer.pkl: Saved at: Fri Feb  8 03:39:09 2019
+../assets/1549597149_LSTM315_300Xreshape.npy: Saved at: Fri Feb  8 03:39:09 2019
+../assets/1549597149_LSTM315_300ycat.npz: Saved at: Fri Feb  8 03:39:09 2019
+../assets/1549597149_LSTM315_300tokenizer.pkl: Saved at: Fri Feb  8 03:39:09 2019
+../assets/1549597149_LSTM315_300Xreshape.npy: Saved at: Fri Feb  8 03:39:09 2019
+../assets/1549597149_LSTM315_300ycat.npz: Saved at: Fri Feb  8 03:39:09 2019
+../assets/1549598478_LSTM315_300model.h5: Saved at: Fri Feb  8 04:01:18 2019
