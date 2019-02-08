@@ -84,7 +84,11 @@ This framework produced 250 word lyric sets that showed minimal repetition, main
 
 Reviewing song structure as a repetition grid, here is the output for the model generated track from above:
 
-![eyes_grid](/images/eyes_grid.png) Model-generated song repetition grid
+![eyes_grid](/images/eyes_grid.png) Model-generated song repetition grid without pre-trained embeddings
+
+![eyes_grid](/images/always_grid.png) Model-generated song repetition grid with pre-trained embeddings
+
+![eyes_grid](/images/always_be.png) Lyrics generated from the seed 'always be there love'
 
 In this grid, the vertical and horizontal axis represent each word in the track. If a word is repeated, the cell is filled, otherwise it is left white. This can be compared to a real track below. Note that the song below has about 30% higher word repetition (~ 0.64, average for the dataset compared to 0.39 above). It is possible that as the model becomes better optimized these structural components will become more well-defined.
 
