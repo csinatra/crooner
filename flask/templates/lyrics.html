@@ -1,15 +1,14 @@
 <html>
  <body>
   <div align="center" style="padding-top:20px;">
-   <h2>
-   {% for line in result %}
+   <h3>{{ seed }}</h3>
+      <br />
+   <h2>{% for line in result %}
      {{ line }}<br />
-   {% endfor %}
-   </h2>
-   <h3>'{{ seed }}'</h3>
+   {% endfor %}</h2>
    <br />
    <form action="{{ url_for('index') }}">
-    <input type="submit" value="Create New Lyrics" />
+    <input type="submit" value="Generate More Lyrics" />
    </form>
   </div>
  </body>
