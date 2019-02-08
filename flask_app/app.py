@@ -22,10 +22,10 @@ def generate_lyrics(seq_len = 4,
                     song_len = 250,
                     temperature = 1.0):
     
-    with open('../assets/1549314666_LSTM350_1015tokenizer.pkl', 'rb') as f:
+    with open('../models/cLSTM315-1015/*.pkl', 'rb') as f:
         tokenizer = pickle.load(f)
     
-    model = keras.models.load_model('../models/1549314666_LSTM315_1015model.h5')
+    model = keras.models.load_model('../models/cLSTM315-1015/*.h5')
 
     seed = request.form['seed']
     

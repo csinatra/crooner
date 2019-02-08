@@ -9,10 +9,10 @@ os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 
-with open('../assets/1549314666_LSTM350_1015tokenizer.pkl', 'rb') as f:
+with open('../models/cLSTM315-1015/*.pkl', 'rb') as f:
     tokenizer = pickle.load(f)
     
-model = keras.models.load_model('../models/1549314666_LSTM315_1015model.h5')
+model = keras.models.load_model('../models/cLSTM315-1015/*.h5')
 
 class Generator():
 

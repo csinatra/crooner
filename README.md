@@ -64,10 +64,10 @@ Based on song structure findings during EDA, I decided on an input sequence of f
 
 Based on track length, I decided to build my model with an embedding layer followed by a first LSTM layer of 300 nodes, corresponding to roughly 1 node per word in the track. This feeds into a second LSTM layer with 150 nodes, followed by a Dense layer with 100 nodes and finally an output layer with the same shape as the training corpus.
 
-The best results were produced when using a model trained over 300 epochs with batches of 5000 input sequences and untrained word word vectors with 300 dimensions. The optimization function was the ADAM optimizer and the loss function was categorical cross-entropy.
+The best results were produced when using a model trained over 300 epochs with batches of 5000 input sequences and untrained word word vectors with 3000 dimensions. The optimization function was the ADAM optimizer and the loss function was categorical cross-entropy.
 
 The model architecture was as follows:
-- Keras Embedding (300)
+- Keras Embedding (3000)
 - LSTM (300, return_sequences=True)
 - LSTM (150)
 - Dense (100, ReLu)
