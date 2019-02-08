@@ -64,10 +64,10 @@ Based on song structure findings during EDA, I decided on an input sequence of f
 
 Based on track length, I decided to build my model with an embedding layer followed by a first LSTM layer of 300 nodes, corresponding to roughly 1 node per word in the track. This feeds into a second LSTM layer with 150 nodes, followed by a Dense layer with 100 nodes and finally an output layer with the same shape as the training corpus.
 
-The best results were produced when using a model trained over 300 epochs with batches of 5000 input sequences and untrained word word vectors with 3000 dimensions. The optimization function was the ADAM optimizer and the loss function was categorical cross-entropy.
+The best results were produced when using a model trained over 300 epochs with batches of 5000 input sequences and untrained word word vectors with 300 dimensions. The optimization function was the ADAM optimizer and the loss function was categorical cross-entropy.
 
 The model architecture was as follows:
-- Keras Embedding (3000)
+- Keras Embedding (300)
 - LSTM (300, return_sequences=True)
 - LSTM (150)
 - Dense (100, ReLu)
@@ -90,7 +90,7 @@ In this grid, the vertical and horizontal axis represent each word in the track.
 
 ![real_grid](/images/teddy_grid.png)Real song repetition grid
 
-![teddy](/images/teddy.png)
+![teddy](/images/teddy.png)Lyrics for When Somebody Loves You Back, Teddy Pendergrass [(source)](https://genius.com/Teddy-pendergrass-when-somebody-loves-you-back-lyrics)
 
 ## Business Recommendations<a name="section6"></a>
 Based on my findings, it's clear that LSTM models provide a solid architecture for language processing and text generation. This model is robust enough to produce entertaining results that can be deployed in a consumer level product with minimal additional front-end development.
