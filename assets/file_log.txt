@@ -44,3 +44,7 @@
 ../assets/1549597149_LSTM315_300Xreshape.npy: Saved at: Fri Feb  8 03:39:09 2019
 ../assets/1549597149_LSTM315_300ycat.npz: Saved at: Fri Feb  8 03:39:09 2019
 ../assets/1549598478_LSTM315_300model.h5: Saved at: Fri Feb  8 04:01:18 2019
+../assets/1549911952_lyric_df.csv: Saved at: Mon Feb 11 19:05:52 2019
+../assets/1549912055_lyric_df.csv: Saved at: Mon Feb 11 19:07:35 2019
+../assets/1549918191_lyric_df.csv: Saved at: Mon Feb 11 20:49:51 2019
+../assets/1549918191_lyric_df.csv: Saved at: Mon Feb 11 20:49:51 2019
