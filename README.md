@@ -40,7 +40,9 @@ Leveraging the deep learning libraries of Keras running on a Tensorflow backend,
 Song lyrics were cleaned and split into individual words for each track before processing and being fed into the model as tokenized word-level sequence sets. Predictions based on these input sets were validated against the ground truth next word in the track and the models were scored based on accuracy.
 
 ## Data Dictionary<a name="section4"></a>
-SQL Table:
+SQL Tables:
+
+track_table –
 
 | Feature        | SQL Type              | Data Type | Description                                                                                          |
 |----------------|-----------------------|-----------|------------------------------------------------------------------------------------------------------|
@@ -53,6 +55,19 @@ SQL Table:
 | playlist_owner | VARCHAR               | string    | Name of the playlist creator (Spotify).                                                              |
 | lyrics         | JSON                  | string    | Lyrics queried from Genius (http://genius.com)                                                       |
 
+lyric_table –
+
+| Feature                | SQL Type              | Data Type | Description                                                                                          |
+|------------------------|-----------------------|-----------|------------------------------------------------------------------------------------------------------|
+| track_id               | VARCHAR / PRIMARY KEY | string    | Unique track ID assigned by Spotify and used to trace back to song metadata throughout this project. |
+| rep_ratio              | FLOAT                 | float     | Ratio of unique words to total words in the track.                                                    |
+| total_words_track      | INT                   | int       | Word count for the track.                                                                             |
+| unique_words_track     | INT                   | int       | Unique word count for the track.                                                                      |
+| mean_len_words_track   | FLOAT                 | float     | Mean word length for the track.                                                                       |
+| total_lines_track      | INT                   | int       | Line count for the track.                                                                             |
+| unique_lines_track     | INT                   | int       | Unique line count for the track.                                                                      |
+| mean_words_line        | FLOAT                 | float     | Mean word count per line in the track.                                                                |
+| mean_unique_words_line | FLOAT                 | float     | Mean unique word count per line in the track.                                                         |
 ## Findings<a name="section5"></a>
 Creating a python-based word-level text generator, I decided to implement a sliding window sequence to feed data into the model. This means that an input sequence of *m* words will be used to generate an output sequence of *n* words. Sequencing the data in this way has the benefit of providing a ground truth feature that can be used to score model accuracy during training.
 
